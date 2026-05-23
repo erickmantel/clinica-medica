@@ -1,0 +1,118 @@
+.sessao-especialidade {
+    padding-bottom: 40px;
+}
+
+.container-links-especialidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.links-especialidades {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.link-especialidade {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-bottom: 2px solid #00cad1;
+}
+
+.box-tabela-especialista {
+    display: flex;
+}
+
+.box-tabela-especialista img {
+    width: 30%;
+    height: 100%;
+}
+
+.tabela-especialistas {
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tabela-especialistas thead tr {
+    background-color: #00cad1;
+    padding: 10px;
+    color: #fff;
+}
+
+.tabela-especialistas tr {
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+
+.tabela-especialistas tbody tr:nth-child(odd) {
+    background-color: #cdcdcd;
+    padding-right: 10px;
+}
+
+.tabela-especialistas th,
+.tabela-especialistas td {
+    padding: 10px;
+}
+
+@media (min-width:426px) and (max-width:768px) {
+
+    /*tablet*/
+    .box-tabela-especialista img {
+        display: none;
+    }
+
+    .box-tabela-especialista {
+        height: auto;
+        justify-content: center;
+    }
+
+    .tabela-especialistas {
+        width: 100%;
+        margin: 0px 20px;
+    }
+
+    .container-links-especialidades h1{
+        font-size: 27px;
+    }
+}
+
+@media (max-width:425px) {
+
+    /*celular*/
+    .topo {
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        border-top: solid gray 1px;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .box-tabela-especialista img {
+        display: none;
+    }
+
+    .tabela-especialistas {
+        margin: 0;
+        width: 100%;
+    }
+
+    .box-tabela-especialista {
+        padding: 0;
+    }
+
+    .container-links-especialidades h1{
+        font-size: 27px;
+    }
+}

@@ -1,0 +1,55 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-titulo{
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main{
+    color: #0000008c;
+    margin-bottom: 60px;
+}
+
+/*Topo*/
+
+.topo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #00cad1;
+    
+}
+
+.topo a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 25px;
+}
+
+
+/*CSS rodapé*/
+
+footer{
+    text-align: center;
+    background-color: #0d6e71;
+    color: white;
+    padding: 20px;
+}
