@@ -1,2 +1,13 @@
-# clinica-medica
-Clínica médica CM - Life
+# Projeto - CM Life
+
+Site que apresenta os serviços, contatos e localização com um design clean e responsivo.
+
+Link:
+[CM Life](https://erickmantel.github.io/clinica-medica/)
+
+**Tecnologias**
+* HTML
+* CSS
+
+
+
