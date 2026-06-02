@@ -117,7 +117,7 @@
         flex-direction: column;
     }
 
-    .topo-links {
+    nav {
         display: flex;
         justify-content: space-around;
         border-top: solid gray 1px;

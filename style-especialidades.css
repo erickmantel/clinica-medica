@@ -17,10 +17,6 @@
     flex-wrap: wrap;
 }
 
-.links-especialidades a:hover{
-    color: #368693;
-}
-
 .link-especialidade {
     text-decoration: none;
     color: black;
@@ -64,8 +60,6 @@
 .tabela-especialistas td {
     padding: 10px;
 }
-
-
 
 @media (min-width:426px) and (max-width:768px) {
 
